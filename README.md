@@ -70,6 +70,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://errorpage.onrender.com)
+- Website [errorpage.onrender.com](https://errorpage.onrender.com)
 - GitHub [@elly-wenani](https://github.com/elly-wenani)
 - Twitter [@ellywenani](https://twitter.com/ellywenani)

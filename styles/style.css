@@ -7,11 +7,13 @@
 :root {
   --font: 'Poppins', sans-serif;
   --primary-color: #232323;
+  --color-black: #000;
   --secondary-color: #fff;
   --font-size: 18px;
   --font-size-h1: 40px;
   --line-height: 30px;
   --heading-line-height: 50px;
+  --word-spacing: 6px;
 }
 
 body {
@@ -38,9 +40,10 @@ body {
 .scarecrow-image {
   width: 50%;
 }
+
 .scarecrow-image img {
   width: 400px;
-  margin-right: 80px;
+  margin-right: 50px;
   float: right;
 }
 
@@ -50,7 +53,6 @@ body {
 
 .main-text h1 {
   font-size: var(--font-size-h1);
-  padding: 0 0 20px 0;
   line-height: var(--heading-line-height);
 }
 
@@ -62,13 +64,34 @@ body {
 
 .main-text h1,
 p {
-  word-spacing: 8px;
+  word-spacing: var(--word-spacing);
 }
+
+/* Back to home page button */
 
 .btn-tohomepage {
   border-color: var(--primary-color);
   background-color: var(--primary-color);
-  padding: 20px 20px;
+  padding: 15px 20px;
   color: var(--secondary-color);
-  font-size: 16px;
+  font-size: 12px;
+  word-spacing: var(--word-spacing);
+}
+
+.btn-tohomepage:hover {
+  background-color: var(--color-black);
+}
+
+/* Footer section */
+
+footer {
+  margin-top: 80px;
+  padding: 1px;
+  width: 100%;
+  text-align: center;
+}
+
+.design-by a {
+  text-decoration: none;
+  color: var(--color-black);
 }
