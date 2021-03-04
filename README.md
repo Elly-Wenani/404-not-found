@@ -21,7 +21,7 @@
 ![devchallenge-screenshot](https://user-images.githubusercontent.com/49924816/109964236-774cee80-7cfe-11eb-8a3f-d729d40952ba.png)
 
 ## About the project
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
+This site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build a 404 Not Found to complete the given user stories.
 
 You can view the live demo of the completed project [here](https://errorpage.onrender.com)
 
