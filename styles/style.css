@@ -1,0 +1,74 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:root {
+  --font: 'Poppins', sans-serif;
+  --primary-color: #232323;
+  --secondary-color: #fff;
+  --font-size: 18px;
+  --font-size-h1: 40px;
+  --line-height: 30px;
+  --heading-line-height: 50px;
+}
+
+body {
+  font-family: var(--font);
+}
+.not-found {
+  padding: 8px 0 100px 40px;
+}
+
+.not-found p {
+  color: var(--primary-color);
+  font-size: var(--font-size);
+  font-weight: 800;
+}
+
+.main-body {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.main-body {
+  margin: 0 5% 0 5%;
+}
+.scarecrow-image {
+  width: 50%;
+}
+.scarecrow-image img {
+  width: 400px;
+  margin-right: 80px;
+  float: right;
+}
+
+.main-text {
+  /* display: block; */
+}
+
+.main-text h1 {
+  font-size: var(--font-size-h1);
+  padding: 0 0 20px 0;
+  line-height: var(--heading-line-height);
+}
+
+.main-text p {
+  font-size: var(--font-size);
+  padding: 0 20px 20px 0;
+  line-height: var(--line-height);
+}
+
+.main-text h1,
+p {
+  word-spacing: 8px;
+}
+
+.btn-tohomepage {
+  border-color: var(--primary-color);
+  background-color: var(--primary-color);
+  padding: 20px 20px;
+  color: var(--secondary-color);
+  font-size: 16px;
+}
