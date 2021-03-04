@@ -4,67 +4,68 @@
   box-sizing: border-box;
 }
 
+/* Variables */
 :root {
-  --font: 'Poppins', sans-serif;
-  --primary-color: #232323;
+  --font-family: 'Space Mono', monospace;
+
+  --primary-color: #333333;
   --color-black: #000;
+  --color-paragraph: #4f4f4f;
   --secondary-color: #fff;
-  --font-size: 18px;
-  --font-size-h1: 40px;
+  --font-size: 24px;
+  --font-size-h1: 55px;
   --line-height: 30px;
   --heading-line-height: 50px;
   --word-spacing: 6px;
 }
 
 body {
-  font-family: var(--font);
+  font-family: var(--font-family);
 }
+
 .not-found {
-  padding: 8px 0 100px 40px;
+  padding: 8px 0 40px 40px;
 }
 
 .not-found p {
   color: var(--primary-color);
   font-size: var(--font-size);
   font-weight: 800;
+  font-family: 'Inconsolata', monospace;
 }
 
 .main-body {
   display: flex;
-  /* flex-wrap: wrap; */
-}
-
-.main-body {
-  margin: 0 5% 0 5%;
 }
 .scarecrow-image {
   width: 50%;
+  padding-left: 20px;
 }
 
 .scarecrow-image img {
-  width: 400px;
-  margin-right: 50px;
-  float: right;
+  width: 100%;
+  padding-right: 50px;
 }
 
+/* Text section on right */
+
 .main-text {
-  /* display: block; */
+  width: 50%;
+  padding-right: 20px;
 }
 
 .main-text h1 {
   font-size: var(--font-size-h1);
-  line-height: var(--heading-line-height);
+  line-height: 70px;
+  width: 90%;
 }
 
 .main-text p {
+  width: 70%;
   font-size: var(--font-size);
-  padding: 0 20px 20px 0;
   line-height: var(--line-height);
-}
-
-.main-text h1,
-p {
   word-spacing: var(--word-spacing);
+  color: var(--color-paragraph);
 }
 
 /* Back to home page button */
@@ -74,24 +75,84 @@ p {
   background-color: var(--primary-color);
   padding: 15px 20px;
   color: var(--secondary-color);
-  font-size: 12px;
+  font-size: 14px;
   word-spacing: var(--word-spacing);
+  cursor: pointer;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
 }
 
 .btn-tohomepage:hover {
   background-color: var(--color-black);
 }
 
+/* Media for responsiveness */
+@media screen and (max-width: 870px) {
+  .main-body {
+    display: block;
+    margin: 0 5% 0 5%;
+  }
+
+  .not-found {
+    padding: 8px 0 80px 40px;
+  }
+
+  /* Image section on left*/
+
+  .scarecrow-image {
+    width: 100%;
+    padding: 0 2px 0 2px;
+  }
+
+  .scarecrow-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .main-text {
+    width: 100%;
+    padding: 0 2px 0 2px;
+  }
+
+  .main-text h1 {
+    font-size: 40px;
+    line-height: 40px;
+    width: 100%;
+  }
+
+  .main-text p {
+    width: 100%;
+    word-spacing: 5px;
+  }
+}
+
 /* Footer section */
 
 footer {
-  margin-top: 80px;
-  padding: 1px;
+  float: left;
+  margin-top: 50px;
   width: 100%;
   text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
 }
 
 .design-by a {
   text-decoration: none;
-  color: var(--color-black);
+  color: #bdbdbd;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.design-by p {
+  color: #bdbdbd;
 }
