@@ -23,7 +23,7 @@
 ## About the project
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
 
-You can view the live demo of the completed project on [by clicking this link] (https://errorpage.onrender.com)
+You can view the live demo of the completed project [here](https://errorpage.onrender.com)
 
 ### Built With
 This project is build using html and css only.
