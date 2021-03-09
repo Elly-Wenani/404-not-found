@@ -20,6 +20,9 @@
 
 ![devchallenge-screenshot](https://user-images.githubusercontent.com/49924816/109964236-774cee80-7cfe-11eb-8a3f-d729d40952ba.png)
 
+![404-not-found-phone-screenshot](https://user-images.githubusercontent.com/49924816/110453467-3cb8cc80-80d7-11eb-99fa-125383ee3906.png)
+
+
 ## About the project
 This site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build a 404 Not Found to complete the given user stories.
 
